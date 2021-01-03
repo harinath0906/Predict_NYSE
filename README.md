@@ -1,4 +1,4 @@
-# Predict NYSE Next Day closing price
+# Predict NYSE Next day closing price
 In this project, I will attempt to predict next day close prices for a subset of New York Stock Exchange (NYSE) stocks. We investigated the predictive ability of linear regression, extreme gradient boosting (XGBoost), and a long short-term memory neural network (LSTM) model. The objective of our research was to determine a model that generalises across the entire NYSE as determined by the sectors to which each stock belongs. Through the processes of feature engineering and hyperparameter optimisation we found that the LSTM model exhibited the strongest performance with an average mean squared error (MSE) of 0.692 over a one year testing period in 2016.
 
 
